@@ -1,5 +1,5 @@
 
-
+/* mobile */
 body{
   margin:auto;
   min-width: 480px;
@@ -106,12 +106,11 @@ aside p {
   align-items: center;
   background-color: rgb(97, 5, 77);
 }
-
-
+/* tablet */
 
 @media (min-width:768px){
   body{
-    max-width: 960px;
+    max-width: 790px;
   }
   
   header {
@@ -130,8 +129,6 @@ aside p {
  
   #cd {
     height: 200px;
-
-    /* display: inline-block; */
   }
   
   #c {
@@ -189,3 +186,85 @@ aside p {
     background-color: rgb(240, 44, 44);
   }
 }
+
+/* desktop */
+
+@media (min-width:960px){
+  body{
+    max-width: 960px;
+  }
+  
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 77, 100);
+  }
+  
+  aside {
+    width: 20.833%;
+    height: 600px;
+    display: flex;
+    float: left;
+    background-color: rgb(4, 110, 124);
+  }
+ 
+  #cd {
+    height: 200px;
+  }
+  
+  #c {
+    width: 39.58%;
+    float: left;
+    height: 200px;
+    background-color: rgb(104, 113, 243);
+  }
+
+  #d {
+    width: 39.58%;
+    float: left;
+
+    height: 200px;
+    background-color: rgb(163, 214, 238);
+  }
+
+  #eh {
+    height: 250px;
+  }
+
+  #e {
+    float: left;
+    width: 19.7916%;
+    height: 250px;
+    background-color: rgb(68, 206, 194);
+  }
+
+  #f {  
+    float: left;
+    width: 19.7916%;
+    height: 250px;
+    background-color: rgb(22, 81, 88);
+  }
+
+  #g {
+    float: left;
+    width: 19.7916%;
+    height: 250px;
+    background-color: rgb(108, 117, 238);
+  }
+
+  #h {
+    float: left;
+    width: 19.7916%;
+    height: 250px;
+    background-color: rgb(78, 131, 231);
+  }
+
+  footer #i {
+    float: left;
+
+    width: 79.1666%;
+    height: 150px;
+    background-color: rgb(135, 80, 224);
+  }
+}
+
